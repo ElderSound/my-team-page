@@ -7,7 +7,7 @@ export default function Header({ isDark, toggleDark }) {
             <h1 className="text-2xl font-bold lg:text-4xl">The creative crew</h1>
             <button
                 onClick={toggleDark}
-                className="flex items-center space-x-2 focus:outline-none"
+                className="flex items-center space-x-2 focus:outline-none cursor-pointer"
             >
                 {/* Icono (sol/luna) */}
                 {isDark ? (
